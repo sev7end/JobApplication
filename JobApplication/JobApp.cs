@@ -99,7 +99,7 @@ namespace JobApplication
             if (from == "GEL" && to == "USD"|| from == "USD" && to == "GEL")
                 Console.WriteLine($"{USDCurrency} GEL = 1 USD || 1 GEL = {1 / USDCurrency} USD");
             else if (from == "GEL" && to == "EURO" || from == "EURO" && to == "GEL")
-                Console.WriteLine($"{EUROCurrency} GEL = 1 USD || 1 GEL = {1 / EUROCurrency} USD");
+                Console.WriteLine($"{EUROCurrency} GEL = 1 EURO || 1 GEL = {1 / EUROCurrency} EURO");
             else if (from == "USD" && to == "EURO" || from == "EURO" && to == "USD")
                 Console.WriteLine($"{EUROCurrency/USDCurrency} USD = 1 EURO || 1 USD = {USDCurrency / EUROCurrency} EURO");
         }
